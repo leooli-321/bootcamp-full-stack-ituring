@@ -1,13 +1,28 @@
-let nome = "Leo Oli";
-let email = "leooli_artist@outlook.com";
-let profissao = "CEO";
-let idade = 27;
-let sonho = "Japão";
+var dados = [
+  (nome = "Leo Oli"),
+  (email = "leooli_artist@outlook.com"),
+  (profissao = "CEO"),
+  (idade = 27),
+  (sonho = "Japão"),
+];
 
-console.log(
-  nome + ", " + email + ", " + profissao + ", " + idade + ", " + sonho + "."
-);
 
-if (typeof myVar === "string") {
+if (typeof nome === "string") {
+  console.log("true");
+} else console.log("false");
+
+if (typeof email === "string") {
+  console.log("true");
+} else console.log("false");
+
+if (typeof profissao === "string") {
+  console.log("true");
+} else console.log("false");
+
+if (typeof idade === "string") {
+  console.log("true");
+} else console.log("false");
+
+if (typeof sonho === "string") {
   console.log("true");
 } else console.log("false");
