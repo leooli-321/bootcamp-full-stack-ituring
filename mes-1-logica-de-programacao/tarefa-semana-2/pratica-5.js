@@ -9,9 +9,6 @@
 
 // calculaDesconto();
 
-
-
-
 let calculaDesconto = function (valorTotal, porcentagemDesconto) {
   const valorDesconto = valorTotal - (valorTotal * porcentagemDesconto) / 100;
 
