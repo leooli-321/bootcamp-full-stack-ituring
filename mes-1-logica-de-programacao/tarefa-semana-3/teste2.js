@@ -1,6 +1,6 @@
-function lista(series, list) {
+let lista = (series) =>
 
-    series = [
+    [
         "Breaking Bad",
         "Game of Thrones",
         "Stranger Things",
@@ -10,12 +10,6 @@ function lista(series, list) {
         "This is Us",
     ];
 
-    list = series[6];
+// return series[2];
 
-    console.log(list);
-    return series;
-}
-
-lista();
-
-console.log(lista((series)))
+console.log(lista(2));
