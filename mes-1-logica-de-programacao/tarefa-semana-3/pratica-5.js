@@ -10,12 +10,10 @@ function lista(series, list) {
         "This is Us",
     ];
 
-    list = series[6];
+    list = series[2];
 
     console.log(list);
     return series;
 }
 
 lista();
-
-console.log(lista((series)))
